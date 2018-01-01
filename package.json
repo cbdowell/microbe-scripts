@@ -1,6 +1,17 @@
 {
-  "name": "microbe-scripts",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+    "name": "microbe-scripts",
+    "version": "1.0.0",
+    "description": "Microbe Scripts",
+    "repository": "cbdowell/microbe-scripts",
+    "bugs": "https://github.com/cbdowell/microbe-scripts/issues",
+    "homepage": "https://github.com/cbdowell/microbe-scripts",
+    "license": "MIT",
+    "scripts": {
+      "push-changes": "node ./scripts/push-changes.js"
+    },
+    "devDependencies": {
+      "dotenv": "^4.0.0",
+      "shelljs": "^0.7.8",
+      "husky": "^0.14.3"
+    }
 }
